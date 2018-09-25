@@ -1,7 +1,7 @@
 # Mobile K-Box
 
 ## About
-This page provides an RDF triple store for Android mobile devices, called mobile K-Box, which has the capability of querying on mobile K-Box by SPARQL query language, synchronizing from external triple stores, and populating from external documents written in natural language, especially in Korean.
+This page provides an RDF triple store for Android mobile devices, called mobile K-Box, which has the capability of querying by SPARQL query language, synchronizing from external triple stores, and populating from external documents written in natural language, especially in Korean.
 
 This page contains the two Android Studio projects:
 * `mobile_kbox`: an initial state of an Android Studio project that only contains APIs for accessing mobile K-Box. 
