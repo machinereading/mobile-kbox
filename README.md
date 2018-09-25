@@ -4,8 +4,8 @@
 This repository provides an RDF triple store for Android mobile devices, called mobile K-Box, which has the capability of querying by SPARQL query language, synchronizing from external RDF triple stores, and populating from external documents written in natural language, especially Korean.
 
 This repository contains two Android Studio projects:
-* `mobile_kbox`: an Android Studio project that only contains APIs for accessing mobile K-Box. 
-* `mobile_kbox_demo`: an Android Studio project that contains APIs for accessing mobile K-Box and implementation of visual user interfaces for interacting with mobile K-Box.
+* `mobile_kbox`: an Android Studio project that only contains APIs for manipulating mobile K-Box. 
+* `mobile_kbox_demo`: an Android Studio project that contains APIs for manipulating mobile K-Box and implementation of visual user interfaces for interacting with mobile K-Box.
 
 ## Prerequisite
 * `Ubuntu 16.04 LTS`
@@ -20,7 +20,7 @@ This repository contains two Android Studio projects:
 2. After that, you can access mobile K-Box by referring to the variable `GlobalVariable.kbox`.
 3. For example, if you want to query on mobile K-Box, just call the API `GlobalVariable.kbox.sparqlQuery("your SPARQL query")`.
 4. There are also other APIs for manipulating mobile K-Box, e.g., `kbox.syncDb(...)`, `kbox.populateDb(...)`, and so on.
-5. If you want to know more details about APIs for mobile K-Box, please refer to the documentation of mobile K-Box: https://docs.google.com/document/d/1frKds01a8duU6OgHzpOtNCKpai-fMeojO7NZB_LB0Ls/edit?usp=sharing.
+5. If you want to know more details about APIs of mobile K-Box, please refer to the documentation of mobile K-Box: https://docs.google.com/document/d/1frKds01a8duU6OgHzpOtNCKpai-fMeojO7NZB_LB0Ls/edit?usp=sharing.
 
 ## Licenses
 * `CC BY-NC-SA` [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/2.0/)
