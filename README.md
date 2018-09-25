@@ -3,9 +3,9 @@
 ## About
 This page provides an RDF triple store for Android mobile devices, called mobile K-Box, which has the capability of querying by SPARQL query language, synchronizing from external triple stores, and populating from external documents written in natural language, especially in Korean.
 
-This page contains the two Android Studio projects:
+This page contains two Android Studio projects:
 * `mobile_kbox`: an initial state of an Android Studio project that only contains APIs for accessing mobile K-Box. 
-* `mobile_kbox_demo`: an Android Studio project that contains APIs for accessing mobile K-Box and implementation of user interfaces for interacting with mobile K-Box.
+* `mobile_kbox_demo`: an Android Studio project that contains APIs for accessing mobile K-Box and implementation of visual user interfaces for interacting with mobile K-Box.
 
 ## Prerequisite
 * `Ubuntu 16.04 LTS`
@@ -13,7 +13,7 @@ This page contains the two Android Studio projects:
 * `Android Studio 3.1.4`
 
 ## External dependencies
-* This module is implemented on the top of RDF4A, which is an Android library for using an RDF triple store for Android. Please go to the github page `https://github.com/dice-group/qamel/tree/master/rdf4a` and install it.
+* This module is implemented on the top of RDF4A, which is an Android library for implementing an RDF triple store. Please go to the github page `https://github.com/dice-group/qamel/tree/master/rdf4a` and install it.
 
 ## How to use
 1. Open your Android Studio editor and load the Android project `mobile_kbox`.
