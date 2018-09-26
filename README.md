@@ -27,7 +27,7 @@ For real testing, you should prepare Android devices with the above mentioned An
 
 ## How to use
 1. Open the Android Studio project `mobile_kbox` by Android Studio.
-2. Initialize `GlobalVariable.kbox` as follows: `GlobalVariable.kbox = new Kbox(this)`. Please note that it should be initialized at the main activity.
+2. Initialize `GlobalVariable.kbox` at the main activity as follows: `GlobalVariable.kbox = new Kbox(this)`.
 2. After that, you can access mobile K-Box from everywhere by referring to the variable `GlobalVariable.kbox`.
 3. For example, if you want to query on mobile K-Box, just call the API `GlobalVariable.kbox.sparqlQuery("your SPARQL query")`.
 4. There are also other APIs for manipulating mobile K-Box, e.g., `kbox.syncDb(...)`, `kbox.populateDb(...)`, and so on.
