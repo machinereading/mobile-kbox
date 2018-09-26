@@ -23,7 +23,7 @@ For real testing, you should prepare Android devices with the above mentioned An
 * `Android Studio 3.1.4`
 
 ## External dependencies
-* This module is implemented on the top of RDF4A, which is an Android library for manipulating an RDF triple store. Please go to the github page https://github.com/dice-group/qamel/tree/master/rdf4a and install it (Please note that before installing RDF4A, JDK8 have to be installed in advance).
+* This module is implemented on the top of RDF4A, which is an Android library for manipulating an RDF triple store. Please go to the github page https://github.com/dice-group/qamel/tree/master/rdf4a and install it (Please note that before installing RDF4A, JDK8 has to be installed in advance).
 
 ## How to use
 1. Open the Android Studio project `mobile_kbox` by Android Studio.
